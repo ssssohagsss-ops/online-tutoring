@@ -1,0 +1,30 @@
+#forms{
+background: linear-gradient(135deg, slateblue, violet);
+color:orange;
+}
+footer{
+    background-color:aquamarine;
+    color: #000000;
+}
+nav{
+    background-color:pink;
+}
+a{
+    display: inline;
+}
+#pricing{
+    background-color:#ffff00;
+    color: black;
+}
+mark{
+    color:blue;
+    background-color:red;
+}
+body{
+    color:white;
+    background-color:black;
+}
+#answers{
+    background-color:lightgreen;
+    color:blue;
+}

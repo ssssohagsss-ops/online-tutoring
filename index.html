@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Maths and Science Tutoring</title>
+</head>
+<body>
+    <nav>
+        <a href="#introduction">INTRO</a> <span>|</span>  <a href="#forms">FORMS</a> <span>|</span> <a href="#answers">ASSESSMENT ANSWERS</a> <span>|</span> <a href="#pricing">PRICING</a> 
+    </nav>
+    <div id="introduction"></div>
+   <h1>Sign In</h1>
+   <p><mark>Please note: your child has to check all microphones and cameras 30 minutes before joining 
+    the session.</mark></p>
+    <pre>We have slots scheduled for <ul>
+         <li>:15</li>
+          <li>:30</li>
+           <li>:45</li>
+            <li>:00</li>
+        </ul>. Please attend the sessions as we share progress with you every session</pre>
+   </div> <div id="forms">
+    <form action="#" target="_blank" method="POST">
+        <label>What is your name?</label>
+        <input type="text" required>
+        <br><br>
+        <label>What is your email?</label>
+        <input type="email" required>
+        <br><br>
+        <label>Password, please:</label>
+        <input type="password" id="passcode" required>
+        <br><br>
+        <label>Year group (American grades converted to English year groups):</label>
+        <input type="number" min="1" max="13" required>
+        <br><br>
+        <input type="submit" value="Sign In" onclick="validate()">
+    </form>
+    <h2>Assess your child's skills before signing up to this service</h2>
+    <form action="#" target="_blank" method="POST">
+        <label>What is 15<sup>2</sup>?</label> 
+        <input type="number" required>
+        <br><br>
+<label>A contact force can either be a ____ or ____. Fill in the blanks:</label> <br>
+       <input type="text" required>
+        <br><br>
+        <label>True or false: The south pole of a magnet attracts the south pole of another magnet?</label> <br>
+        <input type="text" required>
+        <br><br>
+        <label>When x = 7, what is 6x  - 3x + 2x + 10?</label>
+        <br>
+        <input type="number" required>
+        <br><br>
+        <input type="submit" value="Submit" onclick="checkAnswers()">  
+        </form>
+         <button onclick="showAnswers()">Show Answers</button> <button onclick="hideAnswers()">Hide Answers</button>
+  </div>
+    <div id="answers">
+    <h2>Answers to the assessment form:</h2>
+   <p>1. 15<sup>2</sup> is 225.</p>
+    <p>2. A contact force can either be a <strong>push</strong> or <strong>pull</strong>.</p>
+    <p>3. False</p>
+    <p>4. When x = 7, 6x - 3x + 2x + 10 = 6(7) - 3(7) + 2(7) + 10 = 42 - 21 + 14 + 10 = 45.</p>
+   </div>
+     <div id="pricing">
+    <table border="1">
+        <tr>
+            <th>Subject</th>
+            <th>Fundamentals</th>
+            <th>Extras 1</th>
+            <th>Extras 2</th>
+            <th>Extreme Difficulty</th>
+        </tr>
+        <tr>
+            <th>Maths</th>
+            <td>£120</td>
+            <td>£180</td>
+            <td>£260</td>
+            <td>£360</td>
+        </tr>
+        <tr>
+            <th>Science</th>
+            <td>£100</td>
+            <td>£125</td>
+            <td>£150</td>
+            <td>£200</td>
+        </tr>
+    </table>
+    </div>
+  <footer><p>&copy; Developed by Bisma Fatima Manha Binte Sajjad in 2026.* Spread the word!</p> <br> <h6>*Colored aquamarine to represent Bisma's birthstone (March)</h6></footer>
+  <script src="script.js"></script>
+</body>
+</html>
